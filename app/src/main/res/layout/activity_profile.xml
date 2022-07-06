@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1DECECEC"
+    tools:context=".Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagetop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    app:srcCompat = "@drawable/ic_top"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imagePhoto"
+                    android:layout_width="137dp"
+                    android:layout_height="164dp"
+                    android:src="@drawable/fotoku"
+                    app:layout_constraintBottom_toBottomOf="@+id/imagetop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imagetop"
+                    app:civ_border_width="4dp"
+                    app:civ_border_color="#fff"
+                    android:paddingBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sutabah 311910191"
+                    app:layout_constraintStart_toStartOf="@+id/imagePhoto"
+                    app:layout_constraintEnd_toEndOf="@+id/imagePhoto"
+                    app:layout_constraintBottom_toBottomOf="@+id/imagePhoto"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/clblue"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtname">
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/background_btn"
+                        android:drawableStart="@drawable/ic1"
+                        android:text="Universitas Pelita Bangsa"
+                        android:textAllCaps="false"
+                        android:textAlignment="viewStart"
+                        android:paddingStart="20dp"
+                        android:textStyle="bold"
+                        android:drawablePadding="20dp"
+                        android:elevation="3dp"/>
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/background_btn"
+                        android:drawableStart="@drawable/ic3"
+                        android:text="TI.19.C1"
+                        android:textAllCaps="false"
+                        android:textAlignment="viewStart"
+                        android:paddingStart="20dp"
+                        android:textStyle="bold"
+                        android:drawablePadding="20dp"
+                        android:elevation="3dp"/>
+
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/background_btn"
+                        android:drawableStart="@drawable/ic2"
+                        android:text="sutabahachmad99@gmail.com"
+                        android:textAllCaps="false"
+                        android:textAlignment="viewStart"
+                        android:paddingStart="20dp"
+                        android:textStyle="bold"
+                        android:drawablePadding="20dp"
+                        android:elevation="3dp"/>
+
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/background_btn"
+                        android:drawableStart="@drawable/ic5"
+                        android:text="081584841081 / 089614168204 (WA)"
+                        android:textAllCaps="false"
+                        android:textAlignment="viewStart"
+                        android:paddingStart="20dp"
+                        android:textStyle="bold"
+                        android:drawablePadding="20dp"
+                        android:elevation="3dp"/>
+
+                    <Button
+                        android:id="@+id/btn5"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/background_btn"
+                        android:drawableStart="@drawable/ic4"
+                        android:text="Perum Kota Serang Baru"
+                        android:textAllCaps="false"
+                        android:textAlignment="viewStart"
+                        android:paddingStart="20dp"
+                        android:textStyle="bold"
+                        android:drawablePadding="20dp"
+                        android:elevation="3dp"/>
+
+                    <Button
+                        android:id="@+id/btnback"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/background_blue"
+                        android:text="Back To Main Page"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:paddingStart="20dp"
+                        android:textStyle="bold"
+                        android:drawablePadding="20dp"
+                        android:elevation="3dp"/>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
