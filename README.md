@@ -22,3 +22,7 @@
 ![Screenshot_2022-07-06-19-40-19-92_3421baf1f1ea3e1185daadfa714149e3](https://user-images.githubusercontent.com/81844622/177583419-d31051d4-3fb5-47ca-8a38-083d6c56975a.jpg)
 ![Screenshot_2022-07-06-19-40-23-65_3421baf1f1ea3e1185daadfa714149e3](https://user-images.githubusercontent.com/81844622/177583574-91441ead-796a-438e-9bd0-dd4aa1f195f7.jpg)
 ![Screenshot_2022-07-06-19-40-27-45_3421baf1f1ea3e1185daadfa714149e3](https://user-images.githubusercontent.com/81844622/177583696-428c45cc-6a75-4253-961c-7dc5260ca1d2.jpg)
+
+
+# Tampilan Activity My Profile
+![Screenshot_2022-07-06-19-40-47-73_3421baf1f1ea3e1185daadfa714149e3](https://user-images.githubusercontent.com/81844622/177586118-e9b78ff1-a652-464f-a083-d66545b71ed1.jpg)
